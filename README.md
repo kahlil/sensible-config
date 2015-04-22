@@ -1,6 +1,6 @@
 # Front-End Development Config
 
-Essential configuration files for front-end development.
+Essential configuration files for professional front-end development.
 
 ## JSCS
 
@@ -28,7 +28,7 @@ My code style includes the following things:
 * definitely use curly braces
 * `var self = this;`
 * single quotes for strings
-* and many more...
+* and more ...
 
 ## JSHint
 
