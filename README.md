@@ -1,4 +1,4 @@
-# Front-End Development Config
+# Sensible Config
 
 Essential configuration files for professional front-end development.
 
