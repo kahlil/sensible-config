@@ -64,3 +64,7 @@ service and ignores common patterns for:
 * Sass
 
 Tweak as needed.
+
+## License
+
+MIT © [Kahlil Lechelt](http://kahlil.info)
