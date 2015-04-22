@@ -1,0 +1,21 @@
+{
+  "eqeqeq": true,
+  "es5": true,
+  "forin": true,
+  "freeze": true,
+  "futurehostile": true,
+  "latedef": "nofunc",
+  "maxdepth": 5,
+  "maxparams": 5,
+  "maxstatements": 5,
+  "noarg": true,
+  "nonew": true,
+  "singleGroups": true,
+  "undef": true,
+  "unused": true,
+  "debug": true,
+  "browser": true,
+  "devel": true,
+  "jquery": true,
+  "browserify": true
+}
