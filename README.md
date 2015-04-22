@@ -1,6 +1,6 @@
 # Sensible Config
 
-Essential, sensible configuration files for professional front-end development.
+Essential configuration files for professional front-end development.
 
 ## JSCS
 
