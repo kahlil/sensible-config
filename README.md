@@ -2,7 +2,7 @@
 
 Essential configuration files for professional front-end development.
 
-## JSCS ([jscs.info](http://jscs.info/))
+## JSCS
 
 A `.jscsrc` file that enforces a common sense code style.
 In order to use it in your editor just install and activate the respective
