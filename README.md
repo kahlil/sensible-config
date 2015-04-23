@@ -10,7 +10,18 @@ JSCS plugin.
 
 * you can use it with [Grunt](https://github.com/jscs-dev/grunt-jscs)
 * you can use it with [Gulp](https://github.com/jscs-dev/gulp-jscs)
-* you can use it just as a [cli](http://jscs.info/overview.html#installation)  
+* you can use it just as a [cli](http://jscs.info/overview.html#installation)
+
+### Autoformatting
+
+In it's newest version JSCS includes
+[a formatter](http://jscs.info/overview.html#-auto-configure-experimental-)
+which allows you to format your code according to your defined style guide automatically.
+
+```js
+// `path` can be a file or directory to check the presets against
+jscs --auto-configure path
+```
 
 ### The Code Style
 
@@ -48,15 +59,15 @@ you have the respective EditorConfig plugin installed in your editor.
 
 ## Gitignore
 
-The `.gitignore` file has been generated with the awesome [gitignore.io](http://gitignore.io)
-service and ignores common patterns for:
+The `.gitignore` file has been generated with the awesome
+[gitignore.io](http://gitignore.io) service and ignores common patterns for:
 
 * OS X
 * Linux
 * Windows
 * SublimeText
 * Vim
-* Webstorm, PHPStorm etc.
+* Webstorm, PHPStorm
 * Node
 * Grunt
 * Bower
@@ -64,6 +75,6 @@ service and ignores common patterns for:
 
 Tweak as needed.
 
-## License
+# License
 
 MIT © [Kahlil Lechelt](http://kahlil.info)
