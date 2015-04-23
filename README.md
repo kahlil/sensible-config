@@ -2,15 +2,15 @@
 
 Essential configuration files for professional front-end development.
 
-## JSCS
+## JSCS ([jscs.info](http://jscs.info/))
 
 A `.jscsrc` file that enforces a common sense code style.
 In order to use it in your editor just install and activate the respective
 JSCS plugin.
 
-In order to use it with grunt use the `grunt-jscs` plugin.
-In order to use it with gulp use the `gulp-jscs` plugin.
-In order to use it on the command line install JSCS with `npm i -g jscs`.  
+In order to use it with grunt use the [`grunt-jscs` plugin](https://github.com/jscs-dev/grunt-jscs).
+In order to use it with gulp use the [`gulp-jscs` plugin](https://github.com/jscs-dev/gulp-jscs).
+In order to use it on the command line install JSCS with [`npm i -g jscs`](https://github.com/jscs-dev/node-jscs).  
 
 ### The Code Style
 
