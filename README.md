@@ -15,7 +15,7 @@ JSCS plugin.
 ### Autoformatting
 
 In it's newest version JSCS includes
-[a formatter](http://jscs.info/overview.html#-auto-configure-experimental-)
+[an experimental formatter](http://jscs.info/overview.html#-auto-configure-experimental-)
 which allows you to format your code according to your defined style guide automatically.
 
 ```js
