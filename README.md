@@ -10,7 +10,7 @@ JSCS plugin.
 
 * you can use it with [Grunt](https://github.com/jscs-dev/grunt-jscs)
 * you can use it with [Gulp](https://github.com/jscs-dev/gulp-jscs)
-* you can use it just on the [command line](http://jscs.info/overview.html#installation)  
+* you can use it just as a [cli](http://jscs.info/overview.html#installation)  
 
 ### The Code Style
 
