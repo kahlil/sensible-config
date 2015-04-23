@@ -50,7 +50,7 @@ It should do a good job linting your client side code. You might have to add
 or change a couple of options for server side JavaScript.
 
 _Highlight:_ the `browserify` option is turned on by default so you won't have any
-problems working with CommonJS in your client side code.
+problems working with CommonJS modules in your client side code.
 
 ## EditorConfig
 
