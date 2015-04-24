@@ -1,4 +1,11 @@
 {
-  "comma-dangle": 2,
-  
+  "comma-dangle": "never",
+  "no-cond-assing": "always",
+  "no-console": 0,
+  "no-debugger": 0,
+  "valid-jsdoc": 1,
+  "radix": 1,
+  "vars-on-top": 1,
+  "wrap-iife": 1,
+  "strict": [2, "function"]
 }
