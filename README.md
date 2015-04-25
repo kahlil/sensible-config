@@ -53,8 +53,8 @@ The `.gitignore` file has been generated with the awesome
 
 ## Gitattributes
 
-The `.gitattributes` file just makes sure that all text files get normalized to
-LF on checkin.
+The `.gitattributes` file just makes sure that if Git decides that the content
+is text, its line endings are normalized to LF on checkin.
 
 ## How to Use
 
