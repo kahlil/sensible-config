@@ -2,26 +2,15 @@
 
 Essential configuration files for professional front-end development.
 
-## JSCS
+## ESLint
 
-A `.jscsrc` file that enforces a common sense code style.
+A `.eslintrc` file that enforces sensible linting and code style.
 In order to use it in your editor just install and activate the respective
-JSCS plugin.
+ESLint plugin.
 
-* you can use it with [Grunt](https://github.com/jscs-dev/grunt-jscs)
-* you can use it with [Gulp](https://github.com/jscs-dev/gulp-jscs)
-* you can use it just as a [cli](http://jscs.info/overview.html#installation)
-
-### Autoformatting
-
-In it's newest version JSCS includes
-[an experimental formatter](http://jscs.info/overview.html#-auto-configure-experimental-)
-which allows you to format your code according to your defined style guide automatically.
-
-```js
-// `path` can be a file or directory to check the presets against
-jscs --auto-configure path
-```
+* you can use it with [Grunt](https://github.com/sindresorhus/grunt-eslint)
+* you can use it with [Gulp](https://github.com/adametry/gulp-eslint)
+* you can use it just as a [cli](https://github.com/eslint/eslint)
 
 ### The Code Style
 
@@ -29,28 +18,17 @@ My code style includes the following things:
 
 * semicolons (which you can turn off by changing just one line in the .jscsrc)
 * 2 spaces indentation
-* no anonymous functions aloud, they all have to have a name
 * no multiple line strings (use templates!)
 * every variable get a var, none of that weird comma bizzniz!
 * no quoted keys in objects
-* 80 characters line length
 * no trailing whitespace
 * definitely use curly braces
 * `var self = this;`
 * single quotes for strings
 * and more ...
 
-## JSHint
-
-The `.jshintrc` file is quite small since I am not turning off any of the
-stricter options and they removed all the code style options while referring
-to to JSCS for that.
-
-It should do a good job linting your client side code. You might have to add
-or change a couple of options for server side JavaScript.
-
-_Highlight:_ the `browserify` option is turned on by default so you won't have any
-problems working with CommonJS modules in your client side code.
+_Highlight:_ the environments `browser`, `node`, `jquery`, `jasmine` and `mocha`
+are all turned on by default so ESLint allows all the necessary globals.
 
 ## EditorConfig
 
@@ -73,7 +51,14 @@ The `.gitignore` file has been generated with the awesome
 * Bower
 * Sass
 
-Tweak as needed.
+## Gitattributes
+
+The `.gitattributes` file just makes sure that all text files get normalized to
+LF on checkin.
+
+## How to Use
+
+Copy all configuration files into the root of you project and tweak as needed.
 
 # License
 
