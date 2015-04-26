@@ -85,7 +85,7 @@ git remote add sensible-config https://github.com/distilledhype/sensible-config.
 git fetch sensible-config
 # Make sure you merge with care and don't overwrite your README.md.
 git merge sensible-config/master
-# Delete the sensible-config remote if you want
+# Delete the sensible-config remote if you want.
 git remote delete sensible-config
 ```
 
