@@ -64,11 +64,11 @@ Copy all configuration files into the root of you project and tweak as needed.
 
 If you want to merge the sensible-config files into your project you can do
 that by adding this repo as a remote repo in your project and fetch the files.
-Make sure you don't overwrite your README.md though :wink:.
 
 ```sh
 git remote add sensible-config https://github.com/distilledhype/sensible-config.git
 git fetch sensible-config
+# Make sure you merge with care and don't overwrite your README.md :wink:.
 git merge sensible-config/master
 ```
 
