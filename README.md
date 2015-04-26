@@ -60,6 +60,18 @@ is text, its line endings are normalized to LF on checkin.
 
 Copy all configuration files into the root of you project and tweak as needed.
 
+## Merge with Git
+
+If you want to merge the sensible-config files into your project you can do
+that by adding this repo as a remote repo in your project and fetch the files.
+Make sure you don't overwrite your README.md though :wink:.
+
+```sh
+git remote add sensible-config https://github.com/distilledhype/sensible-config.git
+git fetch sensible-config
+git merge sensible-config/master
+```
+
 # License
 
 MIT © [Kahlil Lechelt](http://kahlil.info)
