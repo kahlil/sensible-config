@@ -5,12 +5,19 @@ Sensible configuration files for professional front-end development.
 ## ESLint
 
 A `.eslintrc` file that enforces sensible linting and code style.
-In order to use it in your editor just install and activate the respective
-ESLint plugin.
 
-* you can use it with [Grunt](https://github.com/sindresorhus/grunt-eslint)
-* you can use it with [Gulp](https://github.com/adametry/gulp-eslint)
-* you can use it just as a [cli](https://github.com/eslint/eslint)
+Install ESLint globally on your system with `npm install -g eslint`.
+
+In order to use it in your editor just install and activate the respective
+ESLint plugin:
+
+* [Atom plugin](https://github.com/AtomLinter/linter-eslint)
+* [Webstorm](https://www.jetbrains.com/webstorm/help/eslint.html)
+* [SublimeText](https://github.com/roadhump/SublimeLinter-eslint)
+
+You can also use [Grunt](https://github.com/sindresorhus/grunt-eslint) or
+[Gulp](https://github.com/adametry/gulp-eslint) or the
+[cli](https://github.com/eslint/eslint) directly to lint your code.
 
 ### The Code Style
 
