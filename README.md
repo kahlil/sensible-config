@@ -34,6 +34,7 @@ My code style includes the following things:
 * definitely use curly braces
 * `var self = this;`
 * single quotes for strings
+* allows for named function to be used before definition (John Papa style guide-friendly)
 * [and more ...](https://github.com/distilledhype/sensible-config/blob/master/.eslintrc)
 
 _Highlight:_ the environments `browser`, `node`, `jquery`, `jasmine` and `mocha`
