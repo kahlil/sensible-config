@@ -68,7 +68,7 @@ that by adding this repo as a remote repo in your project and fetch the files.
 ```sh
 git remote add sensible-config https://github.com/distilledhype/sensible-config.git
 git fetch sensible-config
-# Make sure you merge with care and don't overwrite your README.md :wink:.
+# Make sure you merge with care and don't overwrite your README.md.
 git merge sensible-config/master
 ```
 
