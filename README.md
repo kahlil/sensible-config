@@ -16,7 +16,7 @@ ESLint plugin.
 
 My code style includes the following things:
 
-* semicolons (which you can turn off by changing just one line in the .jscsrc)
+* semicolons (which you can turn off by changing the `semi` setting in the `.eslintrc`)
 * 2 spaces indentation
 * no multiple line strings (use templates!)
 * every variable get a var, none of that weird comma bizzniz!
@@ -32,7 +32,7 @@ are all turned on by default so ESLint allows all the necessary globals.
 
 ## EditorConfig
 
-The `.editorconfig` file mirrors the settings given in the `.jscsrc`. Make sure
+The `.editorconfig` file mirrors the settings given in the `.eslintrc`. Make sure
 you have the respective EditorConfig plugin installed in your editor.
 
 ## Gitignore
