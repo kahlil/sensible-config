@@ -73,22 +73,14 @@ There are two ways to get these files into your project cleanly.
 ### Add Manually
 
 Download [the master zip](https://github.com/distilledhype/sensible-config/archive/master.zip),
-then copy all configuration files into the root of you project and tweak as needed.
+then copy all configuration files from the `config-files` folder into the root
+of you project and tweak as needed.
 
-### Merge with Git
+### Add the configuration files to your project with cURL
 
-If you want to merge the sensible-config files into your project with Git you can do
-that by adding this repo as a remote repo in your project, fetch that repo and
-merge master:
-
-```sh
-git remote add sensible-config https://github.com/distilledhype/sensible-config.git
-git fetch sensible-config
-# Make sure you merge with care and don't overwrite your README.md.
-git merge sensible-config/master
-# Delete the sensible-config remote if you want.
-git remote delete sensible-config
-```
+´´´sh
+curl -fsSL http://git.io/vfQKP | tar -xz --strip-components 2
+´´´
 
 Tweak as needed.
 
