@@ -78,6 +78,8 @@ the `config-files` folder into the root of you project and tweak as needed.
 
 ### Add the configuration files to your project with cURL
 
+Run this on the terminal in your project directory:
+
 ```sh
 curl -fsSL http://git.io/vfQKP | tar -xz --strip-components 2
 ```
