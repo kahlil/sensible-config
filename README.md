@@ -78,9 +78,9 @@ of you project and tweak as needed.
 
 ### Add the configuration files to your project with cURL
 
-´´´sh
+```sh
 curl -fsSL http://git.io/vfQKP | tar -xz --strip-components 2
-´´´
+```
 
 Tweak as needed.
 
