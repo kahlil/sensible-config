@@ -73,8 +73,8 @@ There are two ways to get these files into your project cleanly.
 ### Add Manually
 
 Download [the master zip](https://github.com/distilledhype/sensible-config/archive/master.zip),
-then copy all configuration files from the `config-files` folder into the root
-of you project and tweak as needed.
+or clone this repository with Git and then copy all configuration files from
+the `config-files` folder into the root of you project and tweak as needed.
 
 ### Add the configuration files to your project with cURL
 
