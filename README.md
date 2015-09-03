@@ -4,12 +4,12 @@ Sensible configuration files for professional front-end development.
 
 ## ESLint
 
-A `.eslintrc` file that enforces sensible linting and code style.
+A `.eslintrc` file that enforces AirBnB style JavaScript linting and code style.
 
-Install ESLint globally on your system:
+Install eslint, babel-eslint and eslint-config-airbnb in your project.
 
 ```sh
-npm install -g eslint
+npm install --save-dev eslint-config-airbnb babel-eslint
 ```
 
 In order to use it in your editor just install and activate the respective
@@ -23,22 +23,7 @@ You can also use [Grunt](https://github.com/sindresorhus/grunt-eslint) or
 
 ### The Code Style
 
-My code style includes the following things:
-
-* semicolons (which you can turn off by changing the `semi` setting in the `.eslintrc`)
-* 2 spaces indentation
-* no multiple line strings (use templates!)
-* every variable get a var, none of that weird comma bizzniz!
-* no quoted keys in objects
-* no trailing whitespace
-* definitely use curly braces
-* `var self = this;`
-* single quotes for strings
-* allows for named function to be used before definition (John Papa style guide-friendly)
-* [and more ...](https://github.com/distilledhype/sensible-config/blob/master/.eslintrc)
-
-_Highlight:_ the environments `browser`, `node`, `jquery`, `jasmine` and `mocha`
-are all turned on by default so ESLint allows all the necessary globals.
+It is [AirBnB's JavaScript code style](https://github.com/airbnb/javascript) without the ReacJS specific things.
 
 ## EditorConfig
 
